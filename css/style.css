@@ -1,0 +1,21 @@
+.jumbotron-bg{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/BFR_at_stage_separation-2018_design.jpg/1200px-BFR_at_stage_separation-2018_design.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+body{
+	font-family: sans-serif;
+}
+img{
+	border-radius: 10px;
+}
+
+p{
+	text-align: justify;
+}
+a{
+	height: 100%
+margin: 0px;
+}
