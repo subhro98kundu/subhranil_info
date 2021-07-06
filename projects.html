@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subhranil Kundu</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/b7c442b813.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #eee;">
+	<nav class="navbar bg-dark jumbotron-bg">
+		<h1 class="text-white">About Me</h1>
+		<span>
+		<a style="text-decoration: none; color: white; border-radius: 10px;" href="index.html" class="p-4 bg-secondary">Home</a>
+		<a style="text-decoration: none; color: white; border-radius: 10px;" href="projects.html" class="p-4 bg-dark">Projects</a>
+		<a style="text-decoration: none; color: white; border-radius: 10px;" href="#" class="p-4 bg-secondary">Music</a>
+		<a style="text-decoration: none; color: white; border-radius: 10px;" class="p-4 bg-secondary" href="#">Publications</a>
+		</span>
+	</nav>
+	<div class="p-5 bg-white">
+		<div class="row">
+			<div class="col-6" style="border-right: 1px solid #ccc">
+				<div class="list-group" id="list-tab" role="tablist">
+				  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-amazon" role="tab" aria-controls="home">
+				    <div class="d-flex w-100 justify-content-between">
+				      <h5 class="mb-1">Amazon Website Clone (Full Stack using PHP & MYSQL)</h5>
+				      <small>May-June 2021</small>
+				    </div>
+				    <p class="mb-1">The frontend is created with HTML, CSS, BootStrap and JavaScript. PHP and MySQL have been used to create the whole backend.</p>
+				    <small>The project is broken into small modules. This ensures flexibility and easy modification.
+				    </small>
+				    <p></p>
+				  </a>
+
+				  <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-zomato" role="tab" aria-controls="home">
+				    <div class="d-flex w-100 justify-content-between">
+				      <h5 class="mb-1">Zomato Website Clone (Full Stack using PHP & MYSQL)</h5>
+				      <small>June-July 2021</small>
+				    </div>
+				    <p class="mb-1">The frontend is created with HTML, CSS, BootStrap and JavaScript. PHP and MySQL have been used to create the whole backend.</p>
+				    <small>The project is broken into small modules. This ensures flexibility and easy modification.
+				    </small>
+				    <p></p>
+				  </a>
+
+				  <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-movieapp" role="tab" aria-controls="home">
+				    <div class="d-flex w-100 justify-content-between">
+				      <h5 class="mb-1">Movie App (Front End using TMDB APIs)</h5>
+				      <small>April-May 2021</small>
+				    </div>
+				    <p class="mb-1">The frontend is created with HTML, CSS, BootStrap and JQuery. The website uses TMDB APIs to fetch movie data.</p>
+				    <small>The project is broken into small modules. This ensures flexibility and easy modification.
+				    </small>
+				    <p></p>
+				  </a>
+				  
+				  <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-artgen" role="tab" aria-controls="home">
+				    <div class="d-flex w-100 justify-content-between">
+				      <h5 class="mb-1">Art Generation using Neural Style Transfer (CNNs)</h5>
+				      <small>October-November 2020</small>
+				    </div>
+				    <p class="mb-1">The frontend is created with HTML, CSS, BootStrap and JavaScript. PHP and MySQL have been used to create the whole backend.</p>
+				    <small>The project is broken into small modules. This ensures flexibility and easy modification.
+				    </small>
+				    <p></p>
+				  </a>
+				</div>		
+			</div>
+			<div class="col-6">
+				<div class="tab-content" id="nav-tabContent">
+			      <div class="tab-pane fade show active" id="list-amazon" role="tabpanel" aria-labelledby="list-home-list">
+			      	<h3 class="text-primary"><b>Amazon Clone Website</b> <span class="text-muted">(Full Stack Web Development)</span></h3>
+			      	<small class="mb-1">This is my first full stack web development project. The website is <b>user-interactive</b>. While working on this project I learnt <b>DBMS</b> and how proper queries are made. <b>I learnt how important it is to plan the working flow of a website before starting to code it.</b> This project taught me how to create efficient databases and tables.</small>
+				    <small>While planning I divided the project into small modules and kept working on them one by one. This helped me in keeping a track of my progress and made sure that i don't miss out any module. <b>Breaking the project into small modules also made any modification easier.</b></small> 
+				    <small>The project was all about planning, writing and debugging thousands of lines of code. I won't bore you with each and every details the code is available on <a href="#">my github, you can check it here.</a> But, here I will like to cover important details in my project.
+				    	<ul>
+				    		<li>I built a <b>Sign Up module</b> for the website that allows new users to register in the website. While building this module I learnt about registering a new user in the database and how to handle user sessions on the client side.</li>
+				    		<li>After that I built a <b>login module</b>. This allowed already registerd users to log into their respective accounts using their email and password. I also took care of security.</li>
+				    		<li>Then I created a table for products in the database and I had to plan a lot about the columns of the tables to make it efficient. and after making the table I displayed the products on the web page in various categories as they do in amazon by making queries based on different categories. Well i didn' have a big enough table. So unfortunately it has only four major categories.</li>
+				    		<li>Then I coded the <b>Add to Cart module</b>, where if a user is logged in he can add items to his cart. And the items will remain in his/her cart until he/she removes it or purchases it. For this I had to made another table for cart but this table only had 4 columns cart id(primary key), user id, product id and quantity and I linked the table to the products table and the users table with the product id and user id respectively.</li>
+				    		<li>Then I created the <b>Purchase Module</b> where the user is allowed to add a delivery address or chose from the ones added by him/her earlier. For this I had to create a table for addresses linked with the users table by user id. I also implemented a dummy payment gateway in the website. And once the order is placed the user can check the status of his order from the orders tab.</li>
+				    		<li>After that developed the <b>Review Module</b> where a user can review the products he ordered.</li>
+				    	</ul>
+				    </small>
+				    <small>Cloning each and every feature of amazon was a tough challenge. But as my first project on full stack web development, I tried my best clone maximum of the main features.</small><br><br>
+				    <h4>Preview</h4>
+				    	<a href="#">Click here to go to the amazon clone web page.</a> Do not create account in the web page using your original credentials for your own security reasons. You can create your account using dummy details to check the working of the web page.
+			      </div>
+			      
+			      <div class="tab-pane fade show" id="list-zomato" role="tabpanel" aria-labelledby="list-home-list">
+			      	<h3 class="text-primary"><b>Zomato Clone Website</b> <span class="text-muted">(Full Stack Web Development)</span></h3>
+			      	<small class="mb-1">This is a full stack web development project. The website is <b>user-interactive</b>. While working on this project I improved my knowledge in <b>DBMS</b>. <b>I did a thorough planning of the working flow of the website before starting to code it down.</b> In this project I improved my UI skills and implemented a better working UI than my amazon project.</small>
+				    <small>While planning I divided the project into small modules and kept working on them one by one. This time my project was more organized than the Amazon one. This helped me in keeping a track of my progress and made sure that i don't miss out any module. <b>Breaking the project into small modules also made any modification easier.</b></small> 
+				    <small>The project was all about planning, writing and debugging thousands of lines of code. I won't bore you with each and every details the code is available on <a href="#">my github, you can check it here.</a> But, here I will like to cover important details in my project.
+				    	<ul>
+				    		<li>I built a <b>Sign Up module</b> for the website that allows new users to register in the website. While building this module I learnt about registering a new user in the database and how to handle user sessions on the client side.</li>
+				    		<li>After that I built a <b>login module</b>. This allowed already registerd users to log into their respective accounts using their email and password. I also took care of security.</li>
+				    		<li>Then I created two separate tables one for restaurants and one for products in the database and I had to plan a lot about the columns of the tables to make it efficient. After making the table I displayed the restaurants on the web page in various categories as they do in zomato by making queries based on different categories. Well this time I have a big enough table. So fortunately I could cover a lot of categories.</li>
+				    		<li>Then I coded the <b>Add to Cart module</b>, where if a user is logged in he/she can add food items(menu) to his/her cart. And the items will remain in his/her cart until he/she removes it or purchases it. For this I had to made another table for cart but this table only had 4 columns cart id(primary key), user id, menu id and quantity and I linked the table to the menu table and the users table with the product id and user id respectively.</li>
+				    		<li>Then I created the <b>Purchase Module</b> where the user is allowed to add a delivery address or chose from the ones added by him/her earlier. For this I had to create a table for addresses linked with the users table by user id. I also implemented a dummy payment gateway in the website. And once the order is placed the user can check the status of his order from the orders tab.</li>
+				    		<li>After that developed the <b>Review Module</b> where a user can review the products he ordered.</li>
+				    		<li><b>This website also has an ADMIN MODULE where the restaurant's owners can accept or reject the oreders.</b></li>
+				    	</ul>
+				    </small>
+				    <small>Cloning each and every feature of zomato was a pretty tough challenge. But, I tried my best to clone almost all of the main features.</small><br><br>
+				    <h4>Preview</h4>
+				    	<a href="#">Click here to go to the amazon clone web page.</a> Do not create account in the web page using your original credentials for your own security reasons. You can create your account using dummy details to check the working of the web page.
+			      </div>
+			      <div class="tab-pane fade" id="list-movieapp" role="tabpanel" aria-labelledby="list-profile-list">
+			      	<p class="mb-1">The frontend is created with HTML, CSS, BootStrap and JavaScript. PHP and MySQL have been used to create the whole backend.</p>
+				    <small>The project is broken into small modules. This ensures flexibility and easy modification. The modules are:
+				    	<ul>
+				    		<li>Sign Up module</li>
+				    		<li>Login module</li>
+				    		<li>Product Display Module</li>
+				    		<li>Add to cart module</li>
+				    		<li>Purchase Module</li>
+				    		<li>Review Module</li>
+				    	</ul>
+				    </small>
+				    <p></p>
+				  </div>
+
+
+			      <div class="tab-pane fade" id="list-artgen" role="tabpanel" aria-labelledby="list-settings-list">
+			      	<p class="mb-1">The frontend is created with HTML, CSS, BootStrap and JavaScript. PHP and MySQL have been used to create the whole backend.</p>
+				    <small>The project is broken into small modules. This ensures flexibility and easy modification.
+				    </small>
+				    <p></p>
+			      </div>
+			    </div>		
+			</div>
+		</div>
+	</div>
+				
+
+
+	
+</body>
+</html>
